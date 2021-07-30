@@ -1,0 +1,105 @@
+/* Created by Meetesh */ 
+ 
+body {
+   
+}
+#main{
+    position:absolute;
+    width:170px;
+    height:200px;
+    top:50%;
+    left:50%;
+    margin-top:-85px;
+    margin-left:-100px;
+}
+#trunk{
+    background-color:#000;
+    position:absolute;
+    width:100px;
+    height:150px;
+    left:35px;
+    border-radius:50px 50px 10px 10px;
+    /* filter: drop-shadow(8px 8px 10px gray); */
+
+}
+#neck{
+    position:absolute;
+    background-color:#fff;
+    width:100px;
+    height:4px;
+    top:50px;
+}
+.eyes{
+    position:absolute;
+    background-color:#fff;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    top:25px;
+}
+#eye1{
+    left:25px;
+}
+#eye2{
+    left:66px;
+}
+.hands{
+    position:absolute;
+    background-color:#000;
+    width:30px;
+    height:90px;
+    border-radius:15px;
+    left:0px;
+    top:60px;
+    filter: drop-shadow(8px 8px 10px gray);
+
+}
+#hand2{
+    left:140px;
+}
+.legs{
+    position:absolute;
+    background-color:#000;
+    width:25px;
+    height:90px;
+    border-radius:15px;
+    left:50px;
+    top:110px;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+#leg2{
+    left:95px;  
+}
+.antennas{
+    position:absolute;
+    background-color:#000;
+    width:3px;
+    height:25px;
+    border-radius:1.5px;
+    transform:rotateZ(-30deg);
+    left:20px;
+    top:-10px;
+    z-index:-1;
+}
+#antenna2{
+    left:78px;
+    transform:rotateZ(30deg);
+}
+
+
+button{
+    outline: none;
+    border: none;
+    color: whitesmoke;
+    background-color: #30ff00;
+    position: relative;
+    top: 500px;
+    left: 47%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* button:focus{
+    transform: scale(1.5);
+} */
